@@ -1,0 +1,27 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: grid;
+  grid-template-rows: 100vh;
+  grid-template-columns: 35% 65%;
+}
+
+section.gradient {
+  background-image: url(images/bg-main-desktop.png);
+  border: 1px solid red;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
