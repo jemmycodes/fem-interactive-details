@@ -32,24 +32,26 @@ The designs were created to the following widths:
 - Family: [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)
   font-family: "Space Grotesk", sans-serif;
 - Weights: 500
-    <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <!-- displays site properly based on user's device -->
-      <link rel="stylesheet" href="styles.css" type="text/css" />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="./images/favicon-32x32.png"
-      />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
-        rel="stylesheet"
-      />
-      <title>Frontend Mentor | Interactive card details form</title>
-    </head>
+  <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="./images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+          rel="stylesheet"
+        />
+        <title>Frontend Mentor | Interactive card details form</title>
+      </head>
+  jemmycodes/fem-interactive-details
+  https://github.com/jemmycodes/jemmy.git
