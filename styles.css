@@ -53,7 +53,7 @@ div div.front__card-content {
   height: inherit;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2rgitem 3rem;
+  padding: 2rem 3rem;
 }
 
 .card-number {
