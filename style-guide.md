@@ -53,5 +53,4 @@ The designs were created to the following widths:
         />
         <title>Frontend Mentor | Interactive card details form</title>
       </head>
-  jemmycodes/fem-interactive-details
-  https://github.com/jemmycodes/jemmy.git
+  https://github.com/jemmycodes/fem-interactive-details.git
