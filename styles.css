@@ -81,7 +81,7 @@ div div.front__card-content {
 
 section.form {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 40%;
   transform: translate(50%);
   padding-inline: 3rem;
@@ -162,4 +162,15 @@ label {
 
 .form-cvv {
   margin: 1rem;
+}
+
+button {
+  height: 4.5rem;
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+  border-radius: 1rem;
+  font-family: "Space Grotesk", sans-serif;
+  border-style: none;
+  letter-spacing: 1px;
+  margin-top: 2rem;
 }
