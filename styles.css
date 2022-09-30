@@ -119,7 +119,6 @@ input {
   padding-left: 1.5rem;
   outline-style: groove;
   outline-width: 1px;
-  text-transform: capitalize;
 }
 
 input:focus,
@@ -157,38 +156,43 @@ input::placeholder {
   color: hsl(270, 3%, 87%);
 }
 
-div.date {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-}
-
-label {
-  font-weight: 500;
-  font-size: 1.3rem;
-}
-
-.moonth,
-.year {
-  width: 60%;
-}
-
-.cvv {
+#card__number {
   width: 100%;
 }
 
-#month,
-#year {
+div.exp-cvv-box {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+
+.month-year-box {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+div.exp-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+div.cvv-box {
+  gap: 0.5rem;
+  flex-direction: column;
+  display: flex;
   width: 100%;
 }
 
 #cvv {
   width: 100%;
-  margin-left: 0.5rem;
 }
 
-.form-cvv {
-  margin: 1rem;
+#month,
+#year {
+  width: 60%;
 }
 
 button {
@@ -202,9 +206,10 @@ button {
   margin-top: 2rem;
 }
 
-.error {
-  color: hsl(0, 100%, 66%);
-  font-size: small;
+.error-messages {
+  color: hsl(0, 100%, 60%);
+  font-size: 1.1rem;
+  letter-spacing: none;
 }
 
 .right-error {
