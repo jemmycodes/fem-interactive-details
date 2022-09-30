@@ -72,15 +72,22 @@
           <div class="yyear">
             <label for="month-year"></label
             ><input
-              type="number"
+              type="tel"
               placeholder="YY"
               name="month-year"
               id="year"
+              maxlength="4"
             />
           </div>
           <div class="cvvbox">
             <label for="cvv"></label
-            ><input type="text" id="cvv" name="cvv" placeholder="e.g. 123" />
+            ><input
+              type="text"
+              id="cvv"
+              name="cvv"
+              placeholder="e.g. 123"
+              maxlength="3"
+            />
           </div>
         </div>
         <p class="error hidden">
