@@ -63,6 +63,11 @@ div div.front__card-content {
   letter-spacing: 3px;
 }
 
+div.name-month {
+  display: flex;
+  justify-content: space-between;
+}
+
 .card-name {
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -105,7 +110,7 @@ label {
 
 input {
   height: 4rem;
-  color: hsl(270, 3%, 87%);
+  color: black;
   border-style: none;
   font-size: 1.8rem;
   font-family: "Space Grotesk", sans-serif;
@@ -114,6 +119,7 @@ input {
   padding-left: 1.5rem;
   outline-style: groove;
   outline-width: 1px;
+  text-transform: capitalize;
 }
 
 input:focus,
@@ -162,9 +168,18 @@ label {
   font-size: 1.3rem;
 }
 
+.moonth,
+.year {
+  width: 60%;
+}
+
+.cvv {
+  width: 100%;
+}
+
 #month,
 #year {
-  width: 60%;
+  width: 100%;
 }
 
 #cvv {
